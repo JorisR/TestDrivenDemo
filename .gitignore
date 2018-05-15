@@ -1,0 +1,32 @@
+*.lock.json
+.vs/
+.localhistory/
+*.xproj.user
+bin/
+obj/
+*/launchSettings.json
+*.local
+TemporaryDbContextFactory.cs
+.vscode
+*~
+*.log
+*.csproj.user
+*.idea/
+*.orig
+.DS_Store
+/.sonarqube
+/dotCover
+/dotCover.html
+/.env
+/packages
+/TestResults
+
+# docfx ingores
+/docfx_project/**/DROP/
+/docfx_project/**/TEMP/
+/docfx_project/**/packages/
+/docfx_project/**/bin/
+/docfx_project/**/obj/
+
+# ignore nlog log
+/submodule
